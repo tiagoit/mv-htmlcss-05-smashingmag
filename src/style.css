@@ -17,7 +17,7 @@ body {
 
 h1 {
   font-family: "Varela Round", sans-serif;
-  color: #fff;
+  color: black;
   line-height: 1.2em;
 }
 
@@ -35,7 +35,7 @@ nav {
   background-color: grey;
   font-family: "Varela Round", sans-serif;
   font-size: 32px;
-  color: #fff;
+  color: black;
 }
 
 nav > div {
@@ -46,6 +46,11 @@ nav > div {
 
 nav > div.logo {
   padding-top: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .square {
@@ -98,7 +103,7 @@ nav > div.logo {
   height: 700px;
   text-align: center;
   padding: 100px 80px 0;
-  color: #fff;
+  color: black;
 }
 
 .full-rectangle .subtitle {
@@ -140,12 +145,12 @@ nav > div.logo {
   font-weight: bold;
   margin-top: 32px;
   padding: 4px;
-  color: #fff;
+  color: black;
 }
 
 div.square.article {
   padding: 120px 60px;
-  color: #fff;
+  color: black;
 }
 
 div.square.article .author {
@@ -189,7 +194,7 @@ div.square.article .tags ul li {
 div.square.article .arrow {
   bottom: -120px;
   position: relative;
-  color: #fff;
+  color: black;
 }
 
 .author span {
