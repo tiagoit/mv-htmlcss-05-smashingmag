@@ -22,13 +22,13 @@ h1 {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 nav {
   padding: 0 24px;
   border: 1px solid purple;
-  grid-column: span 4;
+  grid-column: span 12;
   height: 200px;
   display: flex;
   background-color: grey;
@@ -50,13 +50,13 @@ nav > div.logo {
 .square {
   background-color: #afafaf;
   border: 2px solid red;
-  grid-column: span 2;
+  grid-column: span 6;
   height: 700px;
 }
 
 .rectangle {
   position: relative;
-  grid-column: span 1;
+  grid-column: span 4;
   height: 700px;
   padding: 70px 50px;
   line-height: 26px;
