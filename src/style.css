@@ -8,23 +8,34 @@ font-family: 'Varela Round', sans-serif;  <<<<< BODY
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+nav{
+  width: 100%;
+  height: 100px;
+  grid-row: 1fr/4fr;
+  border: 1px solid purple;
+}
 
 .container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-area: 
+  'nav nav nav nav';
+
 }
 
-.container > div,
-.container > navbar {
-  border: 10px solid gold;
-  height: 300px;
-  width: 100%;
+.square {
+  border: 2px solid red;
+  grid-column: span 2;
+  height: 700px;
 }
 
-navbar {
-  grid-template-rows: 12fr;
+.rectangle {
+  border: 2px solid blue;
+  grid-column: span 1;
+  height: 700px;
 }
 
-div.square {
-  grid-template-rows: 12fr;
-}
+
+
+
