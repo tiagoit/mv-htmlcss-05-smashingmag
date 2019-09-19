@@ -295,7 +295,6 @@ div.square.article .arrow {
   grid-column: span 4;
   padding: 80px 90px;
   line-height: 40px;
-  font-size: 20px;
 }
 
 .guide-content h1 {
@@ -306,7 +305,7 @@ div.square.article .arrow {
 
 .guide-content a {
   color: rgb(23, 125, 221);
-  /* font-size: 16px; */
+  font-size: 24px;
 }
 
 .guide-content li {
