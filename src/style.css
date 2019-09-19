@@ -12,6 +12,7 @@ font-family: 'Varela Round', sans-serif;  <<<<< BODY
 body {
   font-family: "Rubik", sans-serif;
   background-color: rgb(230, 230, 230);
+  padding-bottom: 200px;
 }
 
 h1 {
@@ -51,6 +52,7 @@ nav > div.logo {
   background-color: #afafaf;
   border: 2px solid red;
   grid-column: span 6;
+  column-fill: auto;
   height: 700px;
 }
 
@@ -120,4 +122,43 @@ div.square.article {
   bottom: 60px;
   font-size: 36px;
   color: rgb(126, 0, 0);
+}
+
+#sponsor-box {
+  grid-column: span 4;
+}
+
+.sponsor {
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: purple;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.pow {
+  grid-column: span 12;
+  padding: 60px;
+}
+
+.pow-flex {
+  display: flex;
+}
+
+.pow-text {
+  font-size: 24px;
+  padding: 0 40px;
+  margin-right: 40px;
+  line-height: 40px;
+}
+
+.flat {
+  grid-column: span 6;
+  height: 400px;
+  padding: 80px;
+}
+
+.flat h1 {
+  color: #000;
 }
