@@ -14,13 +14,30 @@ font-family: 'Varela Round', sans-serif;  <<<<< BODY
   grid-template-columns: repeat(4, 1fr);
 }
 
-nav{
+nav {
+  padding: 0 24px;
   border: 1px solid purple;
   grid-column: span 4;
   height: 200px;
+  display: flex;
+  background-color: grey;
+  font-family: "Varela Round", sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+nav > div {
+  flex: 1;
+  text-align: center;
+  padding-top: 80px;
+}
+
+nav > div.logo {
+  padding-top: 60px;
 }
 
 .square {
+  background-color: #afafaf;
   border: 2px solid red;
   grid-column: span 2;
   height: 700px;
@@ -32,6 +49,32 @@ nav{
   height: 700px;
 }
 
+.full-rectangle {
+  border: 2px solid green;
+  grid-column: span 4;
+  height: 700px;
+}
 
+.latest-articles {
+  background: grey;
+  position: absolute;
+  left: calc(50% - 200px);
+  width: 400px;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  margin-top: 32px;
+  padding: 4px;
+  color: #fff;
+}
 
-
+div.square.article {
+  font-size: 60px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding: 120px 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
