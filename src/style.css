@@ -9,6 +9,15 @@ font-family: 'Varela Round', sans-serif;  <<<<< BODY
   -webkit-box-sizing: border-box;
 }
 
+body {
+  font-family: 'Varela Round', sans-serif; 
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
