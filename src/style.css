@@ -50,12 +50,26 @@ nav > div.logo {
 
 .square {
   background-color: #afafaf;
-  border: 2px solid red;
   grid-column: span 6;
   column-fill: auto;
   height: 700px;
 }
 
+.square:nth-child(1) {
+  background-color: rgb(153, 153, 153);
+}
+
+.square:nth-child(2) {
+  background-color: rgb(167, 167, 167);
+}
+
+.square:nth-child(3) {
+  background-color: rgb(126, 126, 126);
+}
+
+.square:nth-child(4) {
+  background-color: rgb(153, 153, 153);
+}
 .rectangle {
   position: relative;
   grid-column: span 4;
@@ -231,6 +245,15 @@ div.square.article .arrow {
 
 .flat h1 {
   color: #000;
+}
+
+.feature-book {
+  grid-column: span 12;
+  padding: 40px 80px;
+  border: 2px solid red;
+}
+
+.feature-book h1 {
 }
 
 footer {
