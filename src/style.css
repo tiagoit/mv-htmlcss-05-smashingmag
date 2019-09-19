@@ -232,3 +232,55 @@ div.square.article .arrow {
 .flat h1 {
   color: #000;
 }
+
+footer {
+  grid-column: span 12;
+  height: 400px;
+  padding: 80px;
+  text-align: center;
+}
+
+footer .title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer .tags ul {
+  list-style-type: none;
+  display: flex;
+  padding: 36px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .tags ul li {
+  padding: 0 8px;
+}
+
+footer .tags ul li::before {
+  content: "•";
+  position: relative;
+  left: -8px;
+  top: 0;
+}
+
+footer .text {
+  max-width: 420px;
+  margin: auto;
+  font-size: 14px;
+}
+
+footer .links ul {
+  list-style-type: none;
+  display: flex;
+  padding: 36px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 720px;
+  margin: auto;
+}
+
+footer .links ul li {
+  padding: 0 8px;
+  line-height: 32px;
+}
