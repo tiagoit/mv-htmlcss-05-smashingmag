@@ -2,3 +2,29 @@
 font-family: 'Rubik', sans-serif;  <<<<< TITLES/BIG FONTS
 font-family: 'Varela Round', sans-serif;  <<<<< BODY
 */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.container > div,
+.container > navbar {
+  border: 10px solid gold;
+  height: 300px;
+  width: 100%;
+}
+
+navbar {
+  grid-template-rows: 12fr;
+}
+
+div.square {
+  grid-template-rows: 12fr;
+}
