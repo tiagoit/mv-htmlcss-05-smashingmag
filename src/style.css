@@ -241,23 +241,76 @@ div.square.article .arrow {
   line-height: 40px;
 }
 
-.flat {
-  grid-column: span 6;
-  height: 400px;
-  padding: 80px;
+.flat {
+  grid-column: span 6;
+  height: 400px;
+  padding: 80px 140px;
+  line-height: 38px;
+  font-size: 20px;
 }
 
-.flat h1 {
-  color: #000;
+.flat h1 {
+  color: #000;
 }
 
-.feature-book {
-  grid-column: span 12;
-  padding: 40px 80px;
-  border: 2px solid red;
+.flat .author {
+  text-decoration: underline;
 }
 
-.feature-book h1 {
+.flat-date {
+  text-decoration: none;
+}
+
+.feature-book {
+  grid-column: span 12;
+  padding: 40px 80px;
+  background-color: rgb(167, 167, 167);
+}
+
+.feature-book-text {
+  width: 60%;
+  color: #fff;
+}
+
+.feature-book h1 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.feature-book p {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.feature-book button {
+  height: 60px;
+  width: 230px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(23, 125, 221);
+}
+
+.guide-content {
+  grid-column: span 4;
+  padding: 80px 90px;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+.guide-content h1{
+  color: #000;
+  font-size: 33px;
+  padding-bottom: 20px;
+}
+
+.guide-content a {
+  color: rgb(23, 125, 221);
+}
+
+
+.guide-content li {
+  line-height: 50px;
 }
 
 .full-rectangle.newsletter {
