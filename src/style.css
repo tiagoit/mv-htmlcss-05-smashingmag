@@ -28,7 +28,6 @@ h1 {
 
 nav {
   padding: 0 24px;
-  border: 1px solid purple;
   grid-column: span 12;
   height: 200px;
   display: flex;
