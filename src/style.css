@@ -10,9 +10,10 @@ font-family: 'Varela Round', sans-serif;  <<<<< BODY
 }
 
 body {
-  font-family: "Rubik", sans-serif;
-  background-color: rgb(230, 230, 230);
+  font-family: 'Merriweather', serif;
+  background-color: rgb(240, 240, 240);
   padding-bottom: 200px;
+  font-size: 14px;
 }
 
 h1 {
@@ -33,7 +34,7 @@ nav {
   display: flex;
   background-color: grey;
   font-family: "Varela Round", sans-serif;
-  font-size: 32px;
+  font-size: 2em;
   color: black;
 }
 
@@ -74,6 +75,7 @@ nav a {
 .square:nth-child(4) {
   background-color: rgb(153, 153, 153);
 }
+
 .rectangle {
   position: relative;
   grid-column: span 4;
@@ -84,17 +86,28 @@ nav a {
 .pub-date {
   color: rgb(90, 90, 90);
   text-transform: uppercase;
+  font-size: 1.1em;
+  margin-right: 13px;
+}
+
+.pub-date > span {
+  font-size: .8em;
+  letter-spacing: .2em;
 }
 
 .rectangle h1 {
   color: #000;
+  font-weight: 700;
   text-decoration: underline;
   padding-bottom: 30px;
 }
 
 .author {
-  color: rgb(90, 90, 90);
+  color: rgb(134, 134, 134);
   padding-bottom: 30px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .full-rectangle {
@@ -106,7 +119,7 @@ nav a {
 }
 
 .full-rectangle .subtitle {
-  font-size: 24px;
+  font-size: 2em;
   letter-spacing: 3px;
   margin-bottom: 12px;
 }
@@ -139,7 +152,7 @@ nav a {
   left: calc(50% - 200px);
   width: 400px;
   text-align: center;
-  font-size: 32px;
+  font-size: 2em;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
   margin-top: 32px;
@@ -201,7 +214,8 @@ div.square.article .arrow {
 }
 
 .article {
-  font-size: 20px;
+  font-size: 1.4em;
+  line-height: 1.8em;
 }
 
 .arrow {
@@ -227,6 +241,7 @@ div.square.article .arrow {
 .pow {
   grid-column: span 12;
   padding: 60px;
+  background-color: #fff;
 }
 
 .pow-flex {
@@ -241,15 +256,23 @@ div.square.article .arrow {
 }
 
 .flat {
+  background-color: rgb(255, 255, 255);
   grid-column: span 6;
   height: 400px;
-  padding: 80px 140px;
+  padding: 80px 55px;
   line-height: 38px;
-  font-size: 20px
+  font-size: 20px;
+  display: flex;
 }
 
 .flat h1 {
   color: #000;
+}
+
+
+.prof-img img {
+  width: 80px;
+  margin-right: 20px;
 }
 
 .flat .author {
