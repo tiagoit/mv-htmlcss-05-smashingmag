@@ -45,7 +45,10 @@ nav > div {
 }
 
 nav > div.logo {
+  display: flex;
+  
   padding-top: 60px;
+
 }
 
 nav a {
