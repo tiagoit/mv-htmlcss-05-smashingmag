@@ -1,8 +1,3 @@
-/* 
-font-family: 'Rubik', sans-serif;  <<<<< TITLES/BIG FONTS
-font-family: 'Varela Round', sans-serif;  <<<<< BODY
-*/
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -46,9 +41,7 @@ nav>div {
 
 nav>div.logo {
   display: flex;
-
   padding-top: 60px;
-
 }
 
 nav a {
@@ -180,174 +173,8 @@ div.square.article {
   color: black;
 }
 
-div.square.article .author {
-  text-align: left;
-  padding-left: 24px;
-}
-
-div.square.article .author svg {
-  height: 52px;
-}
-
-div.square.article .author span {
-  font-size: 20px;
-  font-weight: 500;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
-  text-decoration: none;
-}
-
-div.square.article .title {
-  font-size: 40px;
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-
-div.square.article .tags ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 80px;
-  font-weight: 500;
-}
-
-div.square.article .tags ul li {
-  flex: 1;
-}
-
-div.square.article .arrow {
-  bottom: -120px;
-  position: relative;
-  color: black;
-}
-
-.author span {
+.flat > .author {
   text-decoration: underline;
-}
-
-.article {
-  font-size: 1.4em;
-  line-height: 1.8em;
-}
-
-.arrow {
-  position: absolute;
-  bottom: 60px;
-  font-size: 36px;
-  color: rgb(126, 0, 0);
-}
-
-#sponsor-box {
-  grid-column: span 4;
-}
-
-.sponsor {
-  margin: 0 auto;
-  margin-top: 30px;
-  background-color: purple;
-  border-radius: 10px;
-  width: 300px;
-  height: 300px;
-}
-
-.pow {
-  grid-column: span 12;
-  padding: 60px;
-  background-color: #fff;
-}
-
-.pow-flex {
-  display: flex;
-}
-
-.pow-text {
-  font-size: 24px;
-  padding: 0 40px;
-  margin-right: 40px;
-  line-height: 40px;
-}
-
-.flat {
-  background-color: rgb(255, 255, 255);
-  grid-column: span 6;
-  height: 400px;
-  padding: 80px 55px;
-  line-height: 38px;
-  font-size: 20px;
-  display: flex;
-}
-
-.flat:nth-child(even) {
-  margin-left: -60px;
-  padding-right: 120px;
-}
-
-.flat h1 {
-  color: #000;
-}
-
-
-.prof-img img {
-  width: 80px;
-  margin-right: 30px;
-  transform: rotate(-12deg);
-  border: 5px solid grey;
-  border-radius: 10px;
-}
-
-.flat .author {
-  text-decoration: underline;
-}
-
-.flat-date {
-  text-decoration: none;
-}
-
-
-
-.more-links-twitter {
-  grid-column: span 12;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  height: 200px;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-}
-
-.feature-book {
-  grid-column: span 12;
-  padding: 40px 80px;
-  background-color: rgb(167, 167, 167);
-}
-
-.feature-book-text {
-  width: 60%;
-  color: #fff;
-}
-
-.feature-book h1 {
-  font-size: 48px;
-  padding-bottom: 20px;
-}
-
-.feature-book p {
-  line-height: 25px;
-  font-size: 20px;
-}
-
-.feature-book button {
-  height: 60px;
-  width: 230px;
-  margin-top: 20px;
-  border-radius: 10px;
-  font-size: 20px;
-  color: rgb(23, 125, 221);
 }
 
 .guide-content {
@@ -408,6 +235,165 @@ div.square.article .arrow {
   font-weight: 500;
 }
 
+div.square.article .author {
+  text-align: left;
+  padding-left: 24px;
+}
+
+div.square.article .author svg {
+  height: 52px;
+}
+
+div.square.article .author span {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  text-decoration: underline;
+}
+
+div.square.article .title {
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+div.square.article .tags ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 80px;
+  font-weight: 500;
+}
+
+div.square.article .tags ul li {
+  flex: 1;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 60px;
+  font-size: 36px;
+} 
+
+div.square.article .arrow {
+  bottom: -120px;
+  position: relative;
+  color: black;
+  font-size: 36px;
+}
+
+.article {
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+
+#sponsor-box {
+  grid-column: span 4;
+}
+
+.sponsor {
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: purple;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.pow {
+  grid-column: span 12;
+  padding: 60px;
+  background-color: #fff;
+}
+
+.pow-flex {
+  display: flex;
+}
+
+.pow-text {
+  font-size: 24px;
+  padding: 0 40px;
+  margin-right: 40px;
+  line-height: 40px;
+}
+
+.flat {
+  background-color: rgb(255, 255, 255);
+  grid-column: span 6;
+  height: 400px;
+  padding: 80px 55px;
+  line-height: 38px;
+  font-size: 20px;
+  display: flex;
+}
+
+.flat:nth-child(even) {
+  margin-left: -60px;
+  padding-right: 120px;
+}
+
+.flat h1 {
+  color: #000;
+}
+
+.prof-img img {
+  width: 80px;
+  margin-right: 30px;
+  transform: rotate(-12deg);
+  border: 5px solid grey;
+  border-radius: 10px;
+}
+
+.flat-date {
+  text-decoration: none;
+}
+
+.more-links-twitter {
+  grid-column: span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 200px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.feature-book {
+  grid-column: span 12;
+  padding: 40px 80px;
+  background-color: rgb(167, 167, 167);
+}
+
+.feature-book-text {
+  width: 60%;
+  color: #fff;
+}
+
+.feature-book h1 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.feature-book p {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.feature-book button {
+  height: 60px;
+  width: 230px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(23, 125, 221);
+}
+
 footer {
   grid-column: span 12;
   height: 400px;
@@ -415,12 +401,12 @@ footer {
   text-align: center;
 }
 
-footer .title {
+footer > .title {
   font-size: 16px;
   font-weight: 500;
 }
 
-footer .tags ul {
+footer > .tags ul {
   list-style-type: none;
   display: flex;
   padding: 36px 80px;
@@ -428,24 +414,24 @@ footer .tags ul {
   flex-wrap: wrap;
 }
 
-footer .tags ul li {
+footer > .tags ul li {
   padding: 0 8px;
 }
 
-footer .tags ul li::before {
+footer > .tags ul li::before {
   content: "•";
   position: relative;
   left: -8px;
   top: 0;
 }
 
-footer .text {
+footer > .text {
   max-width: 420px;
   margin: auto;
   font-size: 14px;
 }
 
-footer .links ul {
+footer > .links ul {
   list-style-type: none;
   display: flex;
   padding: 36px 80px;
@@ -455,7 +441,7 @@ footer .links ul {
   margin: auto;
 }
 
-footer .links ul li {
+footer > .links ul li {
   padding: 0 8px;
   line-height: 32px;
 }
