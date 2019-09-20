@@ -322,16 +322,21 @@ div.square.article .arrow {
 .guide-content h1 {
   color: #000;
   font-size: 33px;
-  padding-bottom: 20px;
 }
 
 .guide-content a {
   color: rgb(23, 125, 221);
-  font-size: 24px;
+  font-size: .7em;
+  font-weight: 300;
+  font-family: 'Merriweather', serif;
+}
+
+.guide-content ul {
+  padding-top: 20px;
 }
 
 .guide-content li {
-  line-height: 45px;
+  line-height: 1.4em;
 }
 
 .full-rectangle.newsletter {
