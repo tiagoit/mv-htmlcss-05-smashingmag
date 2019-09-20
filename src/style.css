@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   background-color: rgb(240, 240, 240);
   padding-bottom: 200px;
   font-size: 14px;
@@ -33,13 +33,13 @@ nav {
   color: black;
 }
 
-nav>div {
+nav > div {
   flex: 1;
   text-align: center;
   padding-top: 80px;
 }
 
-nav>div.logo {
+nav > div.logo {
   display: flex;
   padding-top: 60px;
 }
@@ -87,9 +87,9 @@ nav a {
   margin-right: 13px;
 }
 
-.pub-date>span {
-  font-size: .8em;
-  letter-spacing: .2em;
+.pub-date > span {
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
 }
 
 .rectangle h1 {
@@ -102,7 +102,7 @@ nav a {
 .author {
   color: rgb(134, 134, 134);
   padding-bottom: 30px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.2em;
   font-weight: 500;
 }
@@ -150,7 +150,6 @@ nav a {
   line-height: 1.7em;
 }
 
-
 .latest-articles {
   position: absolute;
   left: calc(50% - 200px);
@@ -164,7 +163,7 @@ nav a {
   color: black;
 }
 
-.latest-article>span {
+.latest-article > span {
   border: 2px solid blue;
 }
 
@@ -361,7 +360,7 @@ div.square.article .arrow {
   text-align: center;
   height: 200px;
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 .feature-book {
@@ -394,6 +393,68 @@ div.square.article .arrow {
   color: rgb(23, 125, 221);
 }
 
+<<<<<<< HEAD
+=======
+.guide-content {
+  grid-column: span 4;
+  padding: 80px 90px;
+  line-height: 40px;
+}
+
+.guide-content h1 {
+  color: #000;
+  font-size: 33px;
+}
+
+.guide-content a {
+  color: rgb(23, 125, 221);
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  line-height: 32px;
+}
+
+.guide-content ul {
+  padding-top: 20px;
+}
+
+.guide-content li {
+  line-height: 1.4em;
+}
+
+.full-rectangle.newsletter {
+  margin: 72px;
+  border-radius: 24px;
+  background-color: #afafaf;
+}
+
+.full-rectangle.newsletter .title {
+  margin-bottom: 48px;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+}
+
+.full-rectangle.newsletter .subtitle {
+  line-height: 48px;
+}
+
+.full-rectangle.newsletter img {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.full-rectangle.newsletter .form {
+  line-height: 48px;
+  width: 300px;
+  background-color: #fff;
+  margin: 80px auto;
+  border-radius: 12px;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+>>>>>>> 8d42486b8c5125001c16da6d0048860e493cd841
 footer {
   grid-column: span 12;
   height: 400px;
