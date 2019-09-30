@@ -13,3 +13,4 @@ HTML, CSS3
 ### Links
 
 - **Assignment page** - [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown)
+- **Live page** - [Live View](https://yirano.github.io/mv-05-htmlcss-smashingmag/src/)
